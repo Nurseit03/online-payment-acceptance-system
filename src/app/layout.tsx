@@ -1,10 +1,9 @@
 import type { Metadata } from "next";
-import { Inter } from "next/font/google";
 import "./globals.css";
 import PublicLayout from "@/layouts/Public";
 import PrivateLayout from "@/layouts/Private";
-
-const inter = Inter({ subsets: ["latin"] });
+import { ThemeProvider } from "@mui/material";
+import theme from "@/themes/default";
 
 export const metadata: Metadata = {
   title: "Create Next App",
@@ -28,8 +27,10 @@ export default function RootLayout({ children }: { children: JSX.Element }) {
         <meta charSet="UTF-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
       </head>
-      <body className={inter.className}>
-        <Layout>{children}</Layout>
+      <body>
+        <ThemeProvider theme={theme}>
+          <Layout>{children}</Layout>
+        </ThemeProvider>
       </body>
     </html>
   );

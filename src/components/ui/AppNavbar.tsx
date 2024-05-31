@@ -9,5 +9,5 @@ interface IAppNavbarProps extends DrawerProps {
 
 export default function AppNavbar({ children, type, routes }: IAppNavbarProps) {
 
-    return <Box>AppNavbar</Box>;
+    return <Box>{children}</Box>;
 }
