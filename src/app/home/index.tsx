@@ -3,6 +3,8 @@ import Head from "next/head";
 import { Container, Box } from "@mui/material";
 import HeroSection from "@/components/home-page/HeroSection";
 import AboutProducts from "@/components/home-page/AboutProduct";
+import HowSection from "@/components/home-page/HowSection";
+
 
 export default function Home() {
   return (
@@ -16,9 +18,10 @@ export default function Home() {
         <meta name="description" content="Payment system" />
       </Head>
 
-      <Box px="80px" py="80px" display="flex" flexDirection="column" gap="130px">
+      <Box px="80px" py="80px" display="flex" flexDirection="column" justifyContent="center" gap="130px">
         <HeroSection />
         <AboutProducts />
+        <HowSection />
       </Box>
     </>
   );

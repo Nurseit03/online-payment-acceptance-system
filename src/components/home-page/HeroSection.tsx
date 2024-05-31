@@ -4,8 +4,8 @@ import Image from "next/image";
 
 const HeroSection: React.FC = () => {
   return (
-    <Box component="section" display="flex" gap="20px">
-      <Box display="flex" flexDirection="column" gap={4}>
+    <Box component="section" display="flex" justifyContent="space-between" gap="20px">
+      <Box display="flex" flexDirection="column" gap={4} >
         <Box>
           <Typography variant="h2" fontSize={77} color="primary.dark">
             Легкие
