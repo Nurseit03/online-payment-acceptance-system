@@ -1,13 +1,13 @@
 import { IRoute } from "@/routes/data";
 import Drawer, { DrawerProps } from "@mui/material/Drawer";
+import { Box } from "@mui/material";
 
 interface IAppNavbarProps extends DrawerProps {
   type: "private" | "public";
   routes: IRoute[];
 }
 
-const AppNavbar: React.FC<IAppNavbarProps> = ({children, type,  routes }) => {
-  return <>AppNavbar</>;
-};
+export default function AppNavbar({ children, type, routes }: IAppNavbarProps) {
 
-export default AppNavbar;
+    return <Box>AppNavbar</Box>;
+}
