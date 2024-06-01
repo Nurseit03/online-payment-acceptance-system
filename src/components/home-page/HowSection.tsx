@@ -1,4 +1,6 @@
-import { Box, Stack, Typography } from "@mui/material";
+import { Box, IconButton, Stack, Typography } from "@mui/material";
+import PlayCircleIcon from "@mui/icons-material/PlayCircle";
+import Image from "next/image";
 
 const How: React.FC = () => {
   return (
@@ -42,10 +44,37 @@ const How: React.FC = () => {
             zIndex: 0,
           }}
         />
-        <StepBox number={1} color="#F64B4B" text="Зарегистрируйтесь" description="Пройдите быструю и простую регистрацию на нашей платформе." />
-        <StepBox number={2} color="#4CAF50" text="Настройте параметры" description="Настройте платежные параметры в соответствии с потребностями." />
-        <StepBox number={3} color="#473BF0" text="Начните пользоваться!" description="Запустите ваш сайт и начните принимать платежи от клиентов." />
+        <StepBox
+          number={1}
+          color="#F64B4B"
+          text="Зарегистрируйтесь"
+          description="Пройдите быструю и простую регистрацию на нашей платформе."
+        />
+        <StepBox
+          number={2}
+          color="#4CAF50"
+          text="Настройте параметры"
+          description="Настройте платежные параметры в соответствии с потребностями."
+        />
+        <StepBox
+          number={3}
+          color="#473BF0"
+          text="Начните пользоваться!"
+          description="Запустите ваш сайт и начните принимать платежи от клиентов."
+        />
       </Stack>
+
+      <Box>
+        <Image
+          src="/images/home-section-video-bg.png"
+          alt="video"
+          width={900}
+          height={500}
+          style={{
+            marginTop: "60px",
+          }}
+        />
+      </Box>
     </Box>
   );
 };
