@@ -44,9 +44,9 @@ const AboutProducts: React.FC = () => {
           </Typography>
           <Typography
             variant="h6"
-            fontSize="17px"
-            lineHeight="29px"
-            color="primary.dark"
+            fontSize="19px"
+            lineHeight="32px"
+            color="secondary"
           >
             Мы объединяем все, что требуется для создания веб-сайтов и
             приложений, которые принимают платежи и отправляют выплаты по всему
@@ -67,12 +67,25 @@ const AboutProducts: React.FC = () => {
           </Typography>
           <Typography
             variant="h6"
-            fontSize="19px"
-            color="primary.dark"
-            lineHeight="32px"
+            fontSize="17px"
+            color="secondary"
+            lineHeight="29px"
           >
             Мы предлагаем клиентские и серверные библиотеки на всех языках - от
             React и PHP до .NET и iOS.
+          </Typography>
+
+          <Typography variant="h3" fontSize="21px" lineHeight="32px">
+            Готовые интеграции
+          </Typography>
+          <Typography
+            variant="h6"
+            fontSize="17px"
+            color="secondary"
+            lineHeight="29px"
+          >
+            Используйте интеграцию с такими системами, как Shopify, WooCommerce,
+            NetSuite и другими.
           </Typography>
         </Stack>
 
