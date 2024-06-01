@@ -4,6 +4,7 @@ import { Container, Box } from "@mui/material";
 import HeroSection from "@/components/home-page/HeroSection";
 import AboutProducts from "@/components/home-page/AboutProduct";
 import HowSection from "@/components/home-page/HowSection";
+import CustomerFeedback from "@/components/home-page/CustomersFeedback";
 
 
 export default function Home() {
@@ -22,6 +23,7 @@ export default function Home() {
         <HeroSection />
         <AboutProducts />
         <HowSection />
+        <CustomerFeedback />
       </Box>
     </>
   );
