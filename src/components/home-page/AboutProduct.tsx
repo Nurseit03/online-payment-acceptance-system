@@ -44,9 +44,9 @@ const AboutProducts: React.FC = () => {
           </Typography>
           <Typography
             variant="h6"
-            fontSize="19px"
+            fontSize="17px"
+            lineHeight="29px"
             color="primary.dark"
-            lineHeight="32px"
           >
             Мы объединяем все, что требуется для создания веб-сайтов и
             приложений, которые принимают платежи и отправляют выплаты по всему
@@ -59,8 +59,11 @@ const AboutProducts: React.FC = () => {
 
       <Box display="flex" gap="100px" justifyContent="space-between">
         <Stack direction="column" gap="15px" maxWidth="450px">
-          <Typography variant="h3" fontSize="31px" lineHeight="35px">
-            Полностью интегрированный набор платежных продуктов
+          <Typography variant="h3" fontSize="48px" lineHeight="58px">
+            Самые мощные и простые в использовании API в мире
+          </Typography>
+          <Typography variant="h3" fontSize="21px" lineHeight="32px">
+            Инструменты для каждого стека
           </Typography>
           <Typography
             variant="h6"
@@ -68,11 +71,8 @@ const AboutProducts: React.FC = () => {
             color="primary.dark"
             lineHeight="32px"
           >
-            Мы объединяем все, что требуется для создания веб-сайтов и
-            приложений, которые принимают платежи и отправляют выплаты по всему
-            миру. Продукты Stripe позволяют осуществлять платежи онлайн и лично
-            розничным продавцам, компаниям, занимающимся подпиской, программным
-            платформам и маркетплейсам, а также всему, что находится между ними.
+            Мы предлагаем клиентские и серверные библиотеки на всех языках - от
+            React и PHP до .NET и iOS.
           </Typography>
         </Stack>
 
